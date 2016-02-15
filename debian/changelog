@@ -1,0 +1,11 @@
+php-smbclient (0.8.0~rc1-2) unstable; urgency=medium
+
+  * Enable smbclient extension by default (Closes: #814383)
+
+ -- Ondřej Surý <ondrej@debian.org>  Mon, 15 Feb 2016 12:22:40 +0100
+
+php-smbclient (0.8.0~rc1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Ondřej Surý <ondrej@debian.org>  Thu, 28 Jan 2016 10:20:12 +0100
