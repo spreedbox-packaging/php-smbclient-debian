@@ -1,13 +1,14 @@
 Source: php-smbclient
 Section: php
 Priority: optional
-Maintainer: Debian PHP PECL Maintainers <pkg-php-pecl@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>
+Maintainer: struktur AG <opensource@struktur.de>
+Uploaders: Simon Eisenmann <simon@struktur.de>
 Build-Depends: debhelper (>= 9~),
-               dh-php,
+               dh-php5,
                libsmbclient-dev,
-               php-all-dev (>= 17~)
-Standards-Version: 3.9.6
+               php5-dev,
+               pkg-php-tools (>= 1.5~)
+Standards-Version: 3.9.5
 Homepage: http://pecl.php.net/smbclient
 
 Package: php-smbclient
@@ -15,6 +16,7 @@ Architecture: any
 Depends: ucf,
          ${misc:Depends},
          ${php:Depends},
+         ${phppear:Debian-Depends},
          ${shlibs:Depends}
 Provides: php-libsmbclient
 Description: PHP wrapper for libsmbclient

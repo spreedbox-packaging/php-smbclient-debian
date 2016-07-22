@@ -6,10 +6,10 @@ PECL_NAME    := $(shell dpkg-parsechangelog -SSource | sed -e s/php-//)
 SOURCE_DIR   := $(shell ls -1d $(PECL_NAME)-*)
 INSTALL_ROOT := $(CURDIR)/debian/php-$(PECL_NAME)
 
-PHP_VERSIONS := $(shell /usr/sbin/phpquery -V)
+PHP_VERSIONS := 5
 
 %:
-	dh $@ --with php --sourcedirectory=$(SOURCE_DIR)
+	dh $@ --with php5 --with phppear --sourcedirectory=$(SOURCE_DIR)
 
 override_dh_auto_configure:
 	for v in $(PHP_VERSIONS); do \
@@ -37,4 +37,4 @@ override_dh_auto_clean:
 	  dh_auto_clean --builddirectory=$(CURDIR)/build-$$v --sourcedirectory=$(SOURCE_DIR); \
 	  rm -rf $(CURDIR)/build-$$v; \
 	done
-	cd $(SOURCE_DIR) && phpize --clean
+	#cd $(SOURCE_DIR) && phpize --clean
