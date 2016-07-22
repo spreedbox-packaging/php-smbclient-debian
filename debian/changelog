@@ -1,3 +1,9 @@
+php-smbclient (0.8.0~rc1-2~0strukturag+trusty0) trusty; urgency=medium
+
+  * Backport to trusty
+
+ -- Simon Eisenmann <simon@struktur.de>  Fri, 22 Jul 2016 17:16:10 +0200
+
 php-smbclient (0.8.0~rc1-2) unstable; urgency=medium
 
   * Enable smbclient extension by default (Closes: #814383)
