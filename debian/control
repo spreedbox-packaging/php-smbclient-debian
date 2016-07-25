@@ -18,7 +18,7 @@ Depends: ucf,
          ${php:Depends},
          ${phppear:Debian-Depends},
          ${shlibs:Depends}
-Provides: php-libsmbclient
+Provides: php-libsmbclient, php-smbclient
 Description: PHP wrapper for libsmbclient
  smbclient is a PHP extension that uses Samba's libsmbclient library
  to provide Samba related functions and 'smb' streams to PHP programs.
