@@ -4,7 +4,7 @@ SHELL=/bin/sh -e
 
 PECL_NAME    := $(shell dpkg-parsechangelog -SSource | sed -e s/php-//)
 SOURCE_DIR   := $(shell ls -1d $(PECL_NAME)-*)
-INSTALL_ROOT := $(CURDIR)/debian/php-$(PECL_NAME)
+INSTALL_ROOT := $(CURDIR)/debian/php5-$(PECL_NAME)
 
 PHP_VERSIONS := 5
 
