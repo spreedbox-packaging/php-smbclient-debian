@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9~),
 Standards-Version: 3.9.5
 Homepage: http://pecl.php.net/smbclient
 
-Package: php-smbclient
+Package: php5-smbclient
 Architecture: any
 Depends: ucf,
          ${misc:Depends},
