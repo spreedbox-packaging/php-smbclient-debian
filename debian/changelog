@@ -1,3 +1,9 @@
+php-smbclient (0.8.0~rc1-2~0strukturag+trusty4) trusty; urgency=medium
+
+  * Fix package name
+
+ -- Simon Eisenmann <simon@struktur.de>  Mon, 25 Jul 2016 16:24:59 +0200
+
 php-smbclient (0.8.0~rc1-2~0strukturag+trusty3) trusty; urgency=medium
 
   * Fix folder name
