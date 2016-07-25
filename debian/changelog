@@ -1,4 +1,4 @@
-php-smbclient (0.8.0~rc1-2~0strukturag+trusty1) trusty; urgency=medium
+php-smbclient (0.8.0~rc1-2~0strukturag+trusty2) trusty; urgency=medium
 
   * Use php5 in binary package name
 
