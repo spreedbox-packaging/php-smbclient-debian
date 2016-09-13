@@ -1,3 +1,9 @@
+php-smbclient (0.8.0-1~0strukturag+trusty1) trusty; urgency=medium
+
+  * Imported Upstream version 0.8.0
+
+ -- Joachim Bauch <bauch@struktur.de>  Tue, 13 Sep 2016 16:02:12 +0200
+
 php-smbclient (0.8.0~rc1-2~0strukturag+trusty4) trusty; urgency=medium
 
   * Fix package name
